@@ -1,0 +1,41 @@
+:root{
+  --background:#F4F6FA;
+  --dark:#313E51;
+  --whte:#FFFFFF;
+  --gray:#626C7F;
+}
+#root{
+  width: 100vh;
+  height: 100vw;
+  background-image: url(/public/Ellipse\ 8.svg);
+  background-position: left top;
+  background-color: var(--background);
+  background-repeat: no-repeat;
+}
+.main{
+
+  width: 1160px;
+  height: 456px
+
+}
+.fl{
+  display: flex;
+  flex-direction: row;
+}
+.wl{
+  font-size: 64px;
+  font-weight: 300;
+  color: var(--dark);
+
+}
+.front{
+   color: var(--dark);
+   font-size: 64px;
+   font-weight: 500;
+}
+.pic{
+  font-size: 20px;
+  color: var(--dark);
+  font-style: italic;
+  font-weight: 400;
+}
