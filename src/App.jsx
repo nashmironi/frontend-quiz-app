@@ -5,8 +5,8 @@ import './App.css'
 import './reset.css'
 import data from "./data.json"
 import { Route, Routes } from 'react-router-dom'
-import Home from './assets/views/Home'
-import Home_module from './assets/views/Home.module.css'
+import Home from './views/Home'
+import Home_module from './views/Home.module.css'
 
 function App() {
   

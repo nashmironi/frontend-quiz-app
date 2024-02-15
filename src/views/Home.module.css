@@ -1,0 +1,50 @@
+:root{
+    --background:#F4F6FA;
+    --dark:#313E51;
+    --whte:#FFFFFF;
+    --gray:#626C7F;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #root{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Ellipse\8.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  
+  } 
+  .main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wl{
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .front{
+    align-self: stretch;
+    color: var(--dark);
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .pic{
+   align-self: stretch;
+   color: var(--gray);
+   font-size: 16px;
+   font-style: italic;
+   font-weight: 400;
+  }
