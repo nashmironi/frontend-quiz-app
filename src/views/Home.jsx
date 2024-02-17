@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import data from "../data.json";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -8,26 +9,27 @@ const Home = () => {
     return (
       <>
       
-       <div className='main'>
+       <div className={styles.main}>
     
-        <div className='left'>
-          <p className='wl'>Welcome to the</p>
-          <p className='front'>Frontend Quiz!</p>
-          <p className='pic'>Pick a subject to get started.</p>
+        <div className={styles.left}>
+          <p className={styles.wl}>Welcome to the</p>
+          <p className={styles.front}>Frontend Quiz!</p>
+          <p className={styles.pic}>Pick a subject to get started.</p>
         </div>
         { 
+      
+        <div className={styles.right}>
         
-        <div className='right'>
-
           {data.quizzes.map((quizzes) => {
             return ( 
-              <div key={quizzes.title}
-               className='four' >
+              <Link to={"/"+ quizzes.title.toLowerCase()} key={quizzes.title}
+               className={styles.four} >
                 <img src={quizzes.icon}></img>
                 <span>{quizzes.title}</span>
-                </div>
+                </Link>
             )
           })}
+          
         </div> }
        </div>
        

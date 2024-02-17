@@ -1,0 +1,26 @@
+.four{
+    background-color: var(--whte);
+    width: 564px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+    
+
+
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 143px;
+  }
